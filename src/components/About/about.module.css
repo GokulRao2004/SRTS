@@ -1,0 +1,49 @@
+@import "../../vars.css";
+
+.container{
+    position: relative;
+    background-color: var(--color-bg2);
+    border-radius: 15px;
+    padding: 73px;
+    padding-top: 50px;
+    z-index: 1;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-image: url("../../../assets/hero/hero1.png");
+    background-size: contain; /* Adjust as needed (cover, contain, etc.) */
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+.title{
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.content{
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.para{
+        font-size: 25px;
+        text-align: center;
+        
+        font-weight: 500;
+       
+}
+.content2{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+

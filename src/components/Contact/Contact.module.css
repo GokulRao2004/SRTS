@@ -1,0 +1,99 @@
+@import "../../vars.css";
+
+.container{
+    color: var(--color-text);
+    
+    background-color:#fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 40px 10%;
+    gap: 10px;
+}
+
+
+
+.text h2{
+
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 4px;
+
+}
+
+
+.news{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.news p {
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.container input{
+    border-radius: 10px;
+    padding: 15px 20px;    margin-top: 10px;
+    font-size: 20px;
+}
+.subBtn{
+    padding: 6px 0px;
+    text-decoration: none;
+    background-color: var(--color-primary);
+    color: var(--color-text2);
+    border-radius: 100px;
+    font-weight: 600;
+    padding: 17px 26px;
+    box-shadow: 0, 0, 0, 0;
+    font-size: 20px;
+    margin-left: 20px;
+
+}
+
+
+.links{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.link a {
+    color: var(--color-text2);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+.link img{
+    width: 50px;
+}
+.text>p>a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 830px) {
+    .container{
+        flex-direction: column;
+        gap: 23px;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .links{
+        align-items: center;
+    }
+}

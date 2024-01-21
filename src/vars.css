@@ -1,0 +1,20 @@
+:root{
+    /* Colours */
+    --color-text2: #fff;
+    --color-primary: #FBB56C;
+    --color-secondary: #19366dea;
+    --color-dark: #0b2447;
+    --color-bg2: #04152d;
+
+    --color-bg: white; 
+    /* --color-text: rgb(28, 28, 28); */
+    --color-text: #353740;
+
+    --color-bg: #ffffff;
+    --color-bg2: #f0f0f0;
+    --color-dbl: #4663ac;
+    /* --color-bg2: #ffffff; */
+    /* Fonts */
+    --font-roboto : "Roboto";
+    --font-bookant : "Book Antiqua"
+}
