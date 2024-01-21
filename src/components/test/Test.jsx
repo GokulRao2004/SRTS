@@ -26,7 +26,7 @@ export const Test = () => {
                         <img src={getImageUrl("icons/chat.png")} className={styles.icon}/>
                         <h3 className={styles.title2}>Integrated Chatbot</h3>
                         <p className={styles.description}>
-                        Revolutionizing recruitment with strategic AI-driven chatbots, optimizing efficiency, and candidate experience in talent acquisition processes.
+                        Revolutionizing recruitment with strategic AI-driven chatbots, optimizing efficiency and candidate experience in talent acquisition processes.
                      </p>
                     </div>  
                          
